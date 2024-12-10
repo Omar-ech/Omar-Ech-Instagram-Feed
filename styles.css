@@ -1,0 +1,48 @@
+
+body{
+    background-color: lightgray;
+}
+
+header{
+    background-color:white;
+    display:flex;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.post{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:10px 20px 30px black;
+}
+
+span{
+    color: rgb(230, 230, 230);
+}
+
+img{
+    width: 100%;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post h2,
+.post span{
+    padding: 15px 15px;
+    margin: 0;
+}
+
+.post-footer{
+    padding: 15px 15px;
+}
